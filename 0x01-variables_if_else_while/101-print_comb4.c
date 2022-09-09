@@ -20,4 +20,13 @@ int main(void)
 				putchar(c_three);
 				if (c != 55 || c_two != 56 || c_three != 57)
 				{
+					putchar(44);
+					putchar(32);
+				}
+			}
+		}
+	}
 
+	putchar(10);
+	return (0);
+}
