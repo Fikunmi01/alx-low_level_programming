@@ -28,7 +28,3 @@ int main(void)
 	printf("%lu\n", sum);
 	return (0);
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 42c3e4e03ea1a9d83764d7a615abac590f27f2e1
