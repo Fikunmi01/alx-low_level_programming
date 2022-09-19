@@ -43,4 +43,8 @@ int _atoi(char *s)
 		return (0);
 
 	return (n);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> adafd125f7bd4538e67dd8f9e4ef4558f7c05910
