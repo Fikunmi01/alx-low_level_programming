@@ -92,4 +92,4 @@ int main(int argc, char *argv[])
 			_putchar(result[i] + '0');
 	}
 	if (!a)
-
+}
