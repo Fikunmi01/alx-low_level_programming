@@ -41,3 +41,20 @@ void print_str(va_list list)
 
 }
 
+/**
+ * print_all - prints any type
+ * @format: arguments to print
+ */
+
+void print_all(const char * const format, ...)
+{
+va_list list;
+int i = 0, j = 0;
+char *sep = "";
+
+printTypeStruct printType[] = {
+	{ "i", print_int },
+	{ "f", print_float },
+	{ "c", print_char },
+	{ "s", print_str },
+
