@@ -32,29 +32,4 @@ void print_char(va_list list)
 /**
  * print_str - prints string
  * @list: arguments from print_all
- */
-void print_str(va_list list)
-{
-	char *s = va_arg(list, char *);
-
-	s == NULL ? printf("(nil)") : printf("%s", s);
-
-}
-
-/**
- * print_all - prints any type
- * @format: arguments to print
- */
-
-void print_all(const char * const format, ...)
-{
-va_list list;
-int i = 0, j = 0;
-char *sep = "";
-
-printTypeStruct printType[] = {
-	{ "i", print_int },
-	{ "f", print_float },
-	{ "c", print_char },
-	{ "s", print_str },
 
